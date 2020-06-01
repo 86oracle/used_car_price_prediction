@@ -1,0 +1,50 @@
+name,vehicleType,brand,model,gearbox,notRepairedDamage,fuelType,kilometer,monthOfRegistration,yearOfRegistration,power(in bhp),postalCode,price
+Golf ,kleinwagen,volkswagen,golf,manual,no,benzin,150000,1,1993,120,70435,480
+A5 Sportback ,coupe,audi,c max,manual,yes,diesel,125000,5,2011,190,66954,18300
+Jeep Grand Cherokee,suv,jeep,grand,automatic,yes,diesel,125000,8,2004,163,90480,9800
+GOLF 4,kleinwagen,volkswagen,golf,manual,no,benzin,150000,6,2001,75,91074,1500
+Skoda Fabia,kleinwagen,skoda,fabia,manual,no,diesel,90000,7,2008,69,60437,3600
+BMW 316i,limousine,bmw,third,manual,yes,benzin,150000,10,1995,102,33775,650
+Peugeot,cabrio,peugeot,2 line,manual,no,benzin,150000,8,2004,109,67112,2200
+VW  Derby,limousine,volkswagen,andere,manual,no,benzin,40000,7,1980,50,19348,700
+FordC,bus,ford,c max,manual,no,benzin,30000,8,2014,125,94505,14500
+VW Golf,kleinwagen,volkswagen,golf,manual,yes,benzin,150000,9,1998,101,27472,999
+Mazda  Sport,limousine,mazda,2 line,manual,no,benzin,150000,12,2004,105,96224,2000
+Volkswagen Passat,kombi,volkswagen,passat,manual,yes,diesel,150000,12,2005,140,57290,2799
+VW Passat Facelift,kombi,volkswagen,passat,manual,yes,benzin,150000,11,1995,115,37269,999
+VW PASSAT1.9,kombi,volkswagen,passat,manual,no,diesel,150000,2,2004,131,90762,2500
+Nissan Navara,suv,nissan,navara,manual,no,diesel,70000,3,2011,190,4177,17999
+KA Lufthansa,kleinwagen,ford,passat,automatic,yes,benzin,5000,4,1910,80,24148,450
+Polo 6,bus,volkswagen,polo,automatic,no,benzin,150000,5,2016,60,38871,300
+Renault Twingo,kleinwagen,renault,twingo,automatic,no,benzin,150000,2,2004,75,65599,1750
+FordC MAX 2.0,bus,ford,cmax,manual,no,diesel,150000,6,2007,136,88361,7550
+Mercedes BenzA,bus,mercedes_benz,a class,manual,no,benzin,150000,1,2004,102,49565,1850
+Volkswagen Scirocco 1.4,coupe,volkswagen,scirocco,manual,no,benzin,100000,4,2009,160,75365,10400
+BMW 530,limousine,bmw,fifth,automatic,no,benzin,150000,7,2002,231,68309,3699
+Opel Meriva,andere,opel,meriva,manual,no,benzin,150000,5,2018,90,49716,2900
+Stadtflitzer,kleinwagen,seat,arosa,manual,no,benzin,150000,5,1997,50,9526,450
+MERCEDES 200E,limousine,mercedes_benz,andere,manual,yes,benzin,150000,10,1990,118,35390,500
+BMW 530d touring,kombi,bmw,fifth,automatic,yes,diesel,150000,9,2002,193,73765,2500
+Citroen C4 Grand Picasso.,bus,citroen,c4,manual,no,diesel,125000,4,2017,125,31139,5555
+Honda Civic1.4,limousine,honda,civic,manual,no,benzin,60000,11,2008,99,12621,6900
+Volkswagen T3 andere,bus,volkswagen,transporter,manual,no,benzin,5000,1,1981,50,87471,1990
+Fiat Punto1.2,kleinwagen,fiat,punto,manual,no,benzin,150000,3,2003,60,86199,690
+Mercedes Benz E250,limousine,mercedes_benz,a class,automatic,no,diesel,150000,1,1995,113,53879,3300
+Renault clio 1.2,bus,renault,clio,manual,no,benzin,150000,6,2016,60,37075,899
+Golf  3,limousine,volkswagen,golf,automatic,no,benzin,150000,2,1994,70,44145,245
+BMW 325,limousine,bmw,fifth,automatic,no,benzin,20000,5,2007,218,39179,18000
+Mercedes Benz E200,limousine,mercedes_benz,e class,automatic,no,diesel,150000,11,2004,122,67071,3500
+VW Golf3,kleinwagen,volkswagen,golf,manual,no,benzin,150000,4,2016,75,19386,350
+Opel Kadett ECC,andere,opel,kadett,manual,yes,benzin,70000,3,1991,75,2943,1600
+Renault Kangoo,bus,renault,kangoo,automatic,no,diesel,150000,1,2016,120,46483,1500
+Abschleppwagen Vw LT,andere,volkswagen,andere,manual,no,diesel,150000,11,2002,129,10551,11900
+Mercedes Camper D407,bus,mercedes benz,andere,manual,no,diesel,150000,8,1984,70,22767,1500
+Suche Opel,andere,opel,corsa,automatic,yes,benzin,150000,1,1990,250,56412,800
+E500 Avantgarde AMG Ausstattung,limousine,mercedes benz,e class,automatic,yes,diesel,150000,4,2002,306,33649,7500
+BMW E60 ,limousine,bmw,fifth,automatic,no,diesel,150000,11,2006,231,46119,12500
+Mini One Pepper Scheckheftgepflegt,limousine,mini,fifth,manual,no,benzin,100000,8,2007,95,59174,6990
+Smart For two Klima regensensor uSw,kleinwagen,smart,fort,automatic,yes,benzin,80000,6,2008,61,21073,3900
+Renault Clio 1.4,kleinwagen,renault,clio,manual,no,benzin,125000,8,1999,75,84180,590
+BMW 120d DPF,limousine,bmw,first,manual,no,diesel,150000,8,2007,177,53604,7999
+BMW 528i touring,kombi,bmw, fifth,automatic,no,benzin,150000,2,1998,193,86157,2100
+VW Golf 6,kleinwagen,volkswagen,golf,manual,yes,benzin,100000,1,2017,80,48499,7750

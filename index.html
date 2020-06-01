@@ -1,0 +1,166 @@
+
+<html>
+<head>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="assets/css/style2.css" rel="stylesheet" >
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet"
+
+</head>
+<body>
+<div class="container" style="margin-top:50px;">
+
+                            <div class=" row" style="background-color:#fff;padding:20px;">
+                                <div class=" col-lg-12 col-md-12">
+                                    <p  id="stg_reg" class="alert alert-info">Fill the form correctly to get a prediction</p>
+          
+										<form  action = "{{ url_for("predict"}}"  class="p-5 bg-white" id="create_package" style="font-size:13px;" method = "post">
+											<div class="row form-group">
+													<div class="col-md-3 mb-3 mb-md-0">
+													<label class="text-black" for="brand">Brand</label>
+														<select class="form-control" name="brand" required="required">
+															 <option value="">-Select option-</option>
+															 <option value="Volkswagen">Volkswagen</option>
+															 <option value="Audi">Audi</option>
+															 <option value="Jeep">Jeep</option>
+															 <option value="Shoda">Shoda</option>
+															 <option value="peugeot">Peugeot</option>
+															 <option value="Ford">Ford</option>
+															 <option value="Mazda">Mazda</option>
+															 <option value="Nissan">Nissan</option>
+															 <option value="Renault">Renault</option>
+															 <option value="Mercedes Benz">Mercedes Benz</option>
+															 <option value="Mini">Mini</option>
+															 <option value="Smart">Smart</option>
+														</select>
+													</div>
+													<div class="col-md-3 mb-3 mb-md-0">
+													<label class="text-black" for="Model">Model</label>
+														<select class="form-control" name="car_odel" required="required">
+															 <option value="">-Select option-</option>
+															 <option value="Golf">Golf</option>
+															 <option value="c_max">c max</option>
+															 <option value="Grand">Grand</option>
+															 <option value="Fabia">Fabia</option>
+															 <option value="Third">Third</option>
+															 <option value="Two_Line">Two Line</option>
+															 <option value="Andere">Andere</option>
+															 <option value="Passat">Passat</option>
+															 <option value="Navara">Navara</option>
+															 <option value="polo">Polo</option>
+															 <option value="Twingo">Twingo</option>
+															 <option value="A_Class">A Class</option>
+															 <option value="">-Select option-</option>
+															 <option value="Scirocco">Scirocco</option>
+															 <option value="Fifth">Fifth</option>
+															 <option value="Meriva">Meriva</option>
+															 <option value="Arose">Arose</option>
+															 <option value="C4">C4</option>
+															 <option value="Civic">Civic</option>
+															 <option value="Transporter">Transporter</option>
+															 <option value="Punto">Punto</option>
+															 <option value="Clio">Clio</option>
+															 <option value="E_class">E class</option>
+															 <option value="Kadett">Kadett</option>
+															 <option value="Kango">Kango</option>
+															 <option value="Corsa">Corsa</option>
+															 <option value="fort">fort</option>
+															 <option value="first">first</option>
+														</select>
+													</div>
+													<div class="col-md-3 mb-3 mb-md-0">
+													<label class="text-black" for="year">yearOfRegistration</label>
+														<input type="text" name="car_year" placeholder= "Enter year" class="form-control"  required="required" />
+													</div>
+													<div class="col-md-3 mb-3 mb-md-0">
+													<label class="text-black" for="name">Name</label>
+														<input type="text" name="car_name" class="form-control"  required="required" />
+													</div>
+												</div>
+												
+											
+											</div>
+											<hr/>
+											<div class="row form-group">
+												<div class="col-md-3 mb-3 mb-md-0">
+												<label class="text-black" for="rdamage">NotRepairedDamage</label>
+												<input type="text" id="rname" name="repair_damage" placeholder= "Enter YES OR NO" class="form-control" required="required">
+												
+												</div>
+												<div class="col-md-3 mb-3 mb-md-0">
+												<label class="text-black" for="Fuel_type">Fuel_type</label>
+												<select class="form-control" name="fuel_type" required>
+															 <option value="">-Select option-</option>
+															 <option value="Benz">diesel</option>
+															 <option value="Toyota">benzin</option>
+															 
+															
+												</select>
+												</div>
+												<div class="col-md-3 mb-3 mb-md-0">
+												<label class="text-black" for="Owner_type">vehicleType</label>
+												<select class="form-control" name="owner_type" required>
+															 <option value="">-Select option-</option>
+															 <option value="kleinwagen">kleinwagen</option>
+															 <option value="Coupe">Coupe</option>
+															 <option value="suv">SUV</option>
+															 <option value="limousine">Limousine</option>
+															 <option value="cambrio">Cambrio</option>
+															 <option value="bus">Bus</option>
+															 <option value="Kombi">Kombi</option>
+															 <option value="Andere">Andere</option>
+												</select>
+												</div>
+												<div class="col-md-3 mb-3 mb-md-0">
+												<label class="text-black" for="mileage">Kilometer</label>
+													<input type="text" id="" class="form-control" name="mileage" required="required">
+												</div>
+											</div>
+											
+											<div class="row form-group">
+												<div class="col-md-4 mb-3 mb-md-0">
+												<label class="text-black" for="gearbox">Gearbox</label>
+												<input type="text" id="" name="gearbox" class="form-control" placeholder= "Enter manual or automatic" required="required">
+												
+												</div>
+												<div class="col-md-4 mb-3 mb-md-0">
+												<label class="text-black" for="power">Power (in bhp)</label>
+												<input type="text" id="" name="power" class="form-control" required="required">
+												</div>
+												<div class="col-md-4 mb-3 mb-md-0">
+												<label class="text-black" for="fname">Postal code</label>
+												<input type="text" id="" name="postcode" class="form-control" required="required">
+												</div>
+												
+											</div>
+											<div class="row form-group">
+												<div class="col-md-3 mb-3 mb-md-0">
+												<label class="text-black" for="fname">monthOfRegistration</label>
+												<input type="text" id="" class="form-control" name="new_price" required="required">
+												
+												</div>
+												
+												<div class="col-md-3 mb-3 mb-md-0">
+												<br>
+												<br>
+												
+												{{prediction_text}}
+											
+												</div>
+												
+											</div>
+											<hr/>
+											
+											<div class="row form-group">
+												<div class="col-md-12">
+												<input type="submit" value="Predict" class="btn btn-primary py-2 px-4 text-white">
+												</div>
+											</div>
+										</form>  
+                                </div>
+                            </div>
+                        </div>
+                    
+ </body>
+    </html>
